@@ -6,13 +6,13 @@ import Particle from "../Particle";
 import "../../style.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 
-import leaf from "../../Assets/Projects/leaf.png";
-import emotion from "../../Assets/Projects/emotion.jpeg";
-import medhub from "../../Assets/Projects/medHub.png";
-import eeg from "../../Assets/Projects/eeg.gif";
-import suicide from "../../Assets/Projects/suicide.png";
+import nomina from "../../Assets/Projects/project-1.jpeg";
+import annahl from "../../Assets/Projects/project-2.png";
+import lgtech from "../../Assets/Projects/project-3.png"
+import richeese from "../../Assets/Projects/project-4.png"
 import algo from "../../Assets/Projects/algo.png";
 import plant from "../../Assets/Projects/plant.jpeg";
+
 
 function Projects() {
   return (
@@ -28,54 +28,54 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={leaf}
-              isBlog={false}
-              title="Leaf Disease Prediction"
-              description="Used the plant disease dataset from Kaggle and trained a image classifer model using 'PyTorch' framework using CNN and Transfer Learning with 38 classes of various plant leaves. The model was successfully able to detect diseased and healthy leaves of 14 unique plants. I was able to achieve an accuracy of 98% by using Resnet34 pretrained model."
-              link="https://github.com/soumyajit4419/Plant_AI"
+              imgPath={nomina}
+              isBlog={true}
+              title="IT Engginer - Project As Migration System"
+              description="
+              At PT. Bank Permata TBK I Work to migration System from Windows 7 to Windows 10, 
+              I must Install Computer, Setting All Application, Setting Printer, Setting Email and
+              I must Teaching Costumers With New System, Last Task , Costumers Verify Check With UAT All Done Before Migration System.
+              "
+              // link="https://github.com/soumyajit4419/Plant_AI"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={emotion}
-              isBlog={false}
-              title="Face Recognition and Emotion Detection"
-              description="Trained a CNN classifier using 'FER-2013 dataset' with Keras and tensorflow backened. The classifier sucessfully predicted the various types of emotions of human. And the highest accuracy obtained with the model was 60.1%.
-              Then used Open-CV to detect the face in an image and then pass the face to the classifer to predict the emotion of a person."
-              link="https://github.com/soumyajit4419/Face_And_Emotion_Detection"
+              imgPath={annahl}
+              isBlog={true}
+              title="IT Engginer - Build A Wifi Network "
+              description=
+              "
+              My job is to setup a cable network, cable lines covering the upper building to the lower part of the building, then my job is to configure Cross Cable settings, Perform Cable Management,
+              Configure AP (Access Point) and Mikrotik Configuration, ensure wifi is alive and has a strong signal according to school needs
+              "
+              // link="https://github.com/soumyajit4419/Face_And_Emotion_Detection"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={suicide}
-              isBlog={false}
-              title="Suicide Ideation Prediction"
-              description="Using 'Natural Launguage Processing' for detection of posts in social media platform to identity if a person is affected by any mental illness and thus helping in sucide prevention."
-              link="https://gist.github.com/soumyajit4419/ef44d41fdc510637c7f6730d1bbce2ed"
+              imgPath={lgtech}
+              isBlog={true}
+              title="IT Engginer- Monitoring and Build Lan Network"
+              description="
+            my job is to monitor the movement of world currencies against Idr, Ensure that Movement is in accordance with Reuters or Treasure Data, Solve problems related to what is experienced by customers and provide solutions, Do LAN Network Development,
+            Perform Server Maintenance
+
+              "
+              // link="https://gist.github.com/soumyajit4419/ef44d41fdc510637c7f6730d1bbce2ed"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={eeg}
-              isBlog={false}
-              title="Emotion Predcition from EEG Signals"
-              description="Using EEG signals from 'AMIGOS' Dataset to extract features and train a classifier that helps in detection of human emotions from Brain Signals."
-              link="https://gist.github.com/soumyajit4419/dc94177bc4954752051798f88fbce1df"
-            />
-          </Col>
-
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={medhub}
-              isBlog={false}
-              title="Making Healthcare Easy and Hassle Free"
-              description="Extract, store and retrieve medical information from Medical Reports using OCR.
-              Display the information online Graphically for the use of Patients as well as Doctors only with Authorised Access.
-              Giving an complete health Analytics to doctors of Patients as well as Doctors preseving user privacy."
-              link="https://github.com/soumyajit4419/MedHub_360"
+              imgPath={richeese}
+              isBlog={true}
+              title="Supervisor"
+              description="my job is to monitor team work, make the team follow company rules, make the team enthusiastic about achieving targets, teach new employees about company regulations and how to work properly and correctly, and make the team compact and feel kinship in the work area
+              "
+              // link="https://gist.github.com/soumyajit4419/dc94177bc4954752051798f88fbce1df"
             />
           </Col>
         </Row>
