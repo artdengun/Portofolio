@@ -38,7 +38,7 @@ function Resume() {
             <i className="fas fa-download">&nbsp;</i>Download CV
           </Button>
         </Row>
-        <Row className="resume">
+        {/* <Row className="resume">
           <Col md={6} className="resume-left">
             <h3 className="resume-title">Experience</h3>
             <Resumecontent
@@ -96,7 +96,7 @@ function Resume() {
           <Button variant="primary" href={pdf} target="_blank">
             <i className="fas fa-download">&nbsp;</i>Download CV
           </Button>
-        </Row>
+        </Row> */}
       </Container>
     </Container>
   );
